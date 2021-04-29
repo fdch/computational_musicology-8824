@@ -1,0 +1,67 @@
+!!!OTL: Die Mordeltern Es warn einmal zwei Bauerssoehn,
+!!!ARE: Europa, Osteuropa, Tschechoslowakei, Ober - Zips
+!!!ARD1: Europa%Osteuropa%Tschechoslowakei@Ober-Zips#?
+!!!ARL1: ? / ?
+!!!ARD2: Europa%Osteuropa%Tschechoslowakei@
+!!!ARL2: 49.75/15.00@
+!!!YOR: 4, S. 313
+!!    ????
+!!!SCT: Q0085p
+!!!YEM: Copyright 1995, estate of Helmut Schaffrath.
+**kern
+*ICvox
+*Ivox
+!! Irregular meter.
+*MX
+*k[b-e-]
+*g:
+{4d
+=1
+4g
+4f#
+2g
+4dd
+=2
+4dd
+4b-
+2.a}
+{4a
+=3
+4b-
+4a
+2b-
+4dd
+=4
+4dd
+4b-
+2.a}
+{4ee-
+=5
+2dd
+4cc#
+2dd
+4b-
+=6
+4a
+2g
+2r}
+{4ee-
+=7
+2dd
+4cc#
+2dd
+4b-
+=8
+4a
+2g
+2r}
+==
+!!!AGN: Ballade, Habgier, Mord, Reue, Selbstmord
+!! Verzierungen (Glissandi) in den letzten beiden Zeilen.
+!!!ONB: ESAC (Essen Associative Code) Database: BALLADE
+!!!AMT: irregular
+!!!AIN: vox
+!!!EED: Helmut Schaffrath
+!!!EEV: 1.0
+*-
+!!!title: @{OTL} [@{SCT}]

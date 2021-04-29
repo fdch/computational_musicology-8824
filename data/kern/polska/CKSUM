@@ -1,0 +1,49 @@
+CHEKSUMS for files from /essen/europa/polska
+at http://kern.humdrum.org
+downloaded on Wed Jan 10 10:11:10 PST 2018
+A current version of these files may be downloaded using the address:
+   http://kern.humdrum.org/data?f=zip&l=/essen/europa/polska
+==================================================================
+
+The following lines list the checksum values for all score
+files in this downloaded zip archive.
+
+A "checksum" value is an error-checking mechanism that may
+assist in determining whether a file has been modified or data
+garbled due to transmission or faulty storage.  The "checksum A"
+value uses the POSIX 2 checksum algorithm.  The "checksum B" value
+uses the CCITT cyclic redundancy check algorithm.  
+
+Note that checksum commands will differ for ASCII files formatted
+in DOS/Windows style or Unix/Macintosh formatted text.  The files in
+this ZIP archive were in Unix/Macintosh line formatting style when the
+checksums were compiled.
+
+checksum A   checksum B    filename
+===================================================================
+
+371320077 653 polska01.krn
+236069846 742 polska02.krn
+764600765 551 polska03.krn
+1470320873 605 polska04.krn
+269542511 592 polska05.krn
+3495285892 736 polska06.krn
+1359442359 609 polska07.krn
+1051100060 626 polska08.krn
+2166418695 612 polska09.krn
+758738562 577 polska10.krn
+3916166020 599 polska11.krn
+3755326103 660 polska12.krn
+4052075592 636 polska13.krn
+390070132 568 polska14.krn
+321418493 591 polska15.krn
+2322510253 704 polska16.krn
+357784587 705 polska17.krn
+2389919725 638 polska18.krn
+1372189143 656 polska19.krn
+130741343 741 polska20.krn
+3652616441 583 polska21.krn
+2841714826 628 polska22.krn
+4117006867 755 polska23.krn
+259602431 678 polska24.krn
+3082486168 590 polska25.krn

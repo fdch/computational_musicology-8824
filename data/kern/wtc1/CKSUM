@@ -1,0 +1,48 @@
+CHEKSUMS for files from /musedata/bach/keyboard/wtc-1
+at https://kern.humdrum.org
+downloaded on Sun Feb  7 14:13:09 PST 2021
+A current version of these files may be downloaded using the address:
+	https://kern.humdrum.org/data?f=zip&l=/musedata/bach/keyboard/wtc-1
+==================================================================
+
+The following lines list the checksum values for all score
+files in this downloaded zip archive.
+
+A "checksum" value is an error-checking mechanism that may
+assist in determining whether a file has been modified or data
+garbled due to transmission or faulty storage.  The "checksum A"
+value uses the POSIX 2 checksum algorithm.  The "checksum B" value
+uses the CCITT cyclic redundancy check algorithm.  
+
+Note that checksum commands will differ for ASCII files formatted
+in DOS/Windows style or Unix/Macintosh formatted text.  The files in
+this ZIP archive were in Unix/Macintosh line formatting style when the
+checksums were compiled.
+
+checksum A   checksum B    filename
+===================================================================
+
+3994427876 7188 wtc1p01.krn
+3205279483 9017 wtc1p02.krn
+1235111070 8197 wtc1p03.krn
+1859152836 8553 wtc1p04.krn
+1007109921 6936 wtc1p05.krn
+904384053 7434 wtc1p06.krn
+1046447527 16399 wtc1p07.krn
+2262651760 7125 wtc1p08.krn
+1082788301 4766 wtc1p09.krn
+1480246431 10500 wtc1p10.krn
+3389424759 5143 wtc1p11.krn
+1116778237 6755 wtc1p12.krn
+813668750 4888 wtc1p13.krn
+1515923571 5866 wtc1p14.krn
+2426655332 5472 wtc1p15.krn
+3737959196 6130 wtc1p16.krn
+3598271579 6243 wtc1p17.krn
+385750642 6055 wtc1p18.krn
+3466910260 6222 wtc1p19.krn
+2588631487 6284 wtc1p20.krn
+349108729 6613 wtc1p21.krn
+1167289870 7354 wtc1p22.krn
+275792575 5024 wtc1p23.krn
+4249120900 6360 wtc1p24.krn

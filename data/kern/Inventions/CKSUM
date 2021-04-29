@@ -1,0 +1,39 @@
+CHEKSUMS for files from /osu/classical/bach/inventions
+at https://kern.humdrum.org
+downloaded on Mon Feb 15 07:11:22 PST 2021
+A current version of these files may be downloaded using the address:
+	https://kern.humdrum.org/data?f=zip&l=/osu/classical/bach/inventions
+==================================================================
+
+The following lines list the checksum values for all score
+files in this downloaded zip archive.
+
+A "checksum" value is an error-checking mechanism that may
+assist in determining whether a file has been modified or data
+garbled due to transmission or faulty storage.  The "checksum A"
+value uses the POSIX 2 checksum algorithm.  The "checksum B" value
+uses the CCITT cyclic redundancy check algorithm.  
+
+Note that checksum commands will differ for ASCII files formatted
+in DOS/Windows style or Unix/Macintosh formatted text.  The files in
+this ZIP archive were in Unix/Macintosh line formatting style when the
+checksums were compiled.
+
+checksum A   checksum B    filename
+===================================================================
+
+2244831962 3439 inven01.krn
+254128138 4543 inven02.krn
+1056077760 4315 inven03.krn
+3083740996 3762 inven04.krn
+4140924218 5137 inven05.krn
+4189210965 5008 inven06.krn
+808823768 3650 inven07.krn
+610192498 3984 inven08.krn
+3931186553 4461 inven09.krn
+2645387794 3048 inven10.krn
+3194496517 3977 inven11.krn
+3804823467 4915 inven12.krn
+1764050824 3967 inven13.krn
+2524305834 4244 inven14.krn
+3011213797 3506 inven15.krn

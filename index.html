@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Computational Musicology 8824</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="style/github-pandoc.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Computational Musicology 8824</h1>
+</header>
+<p>Jupyter notebooks made for the Computational Musicology Seminar at The Ohio State University’s School of Music.</p>
+<p>See the <a href="Computational_Musicology_8824.02.pdf">Syllabus</a></p>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html">Unit 1 Symbolic Data</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html">Week 01 Representation Formats</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Representation-Formats">Representation Formats</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#DARMS">Darms</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Plaine-and-Easie">Plaine And Easie</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Kern">Kern</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#More-info">More Info</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Let&#39;s-Begin">Let’S Begin</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Why-Python?">Why Python?</a></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Variables">Variables</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Lists-and-Loops">Lists And Loops</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Basic-Conditionals">Basic Conditionals</a></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Exercise-1">Exercise 1</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Exercise-2:">Exercise 2:</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Homework:">Homework:</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Read-in-a-file">Read In A File</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Wednesday-Class">Wednesday Class</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Counting-Things">Counting Things</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#More-on-Lists">More On Lists</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Question:-Why-is-there-no-output?">Question: Why Is There No Output?</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Exercise:-Odd-numbers-only.">Exercise: Odd Numbers Only.</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#List-comprehension">List Comprehension</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Functions">Functions</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Exercise">Exercise</a></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Rhythms-in-a-Polish-Folksong">Rhythms In A Polish Folksong</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html#Substitutions-and-Regular-Expressions">Substitutions And Regular Expressions</a></li>
+</ol></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_02-Music21.html">Week 02 Music21</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_02-Music21.html#Playing-with-Toolkits-(Music21)">Playing With Toolkits (Music21)</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_02-Music21.html#A-Problem:-Creating-a-Test-Bank-for-Carmen-Quizzes">A Problem: Creating A Test Bank For Carmen Quizzes</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_02-Music21.html#music21-and-notation">Music21 And Notation</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_02-Music21.html#The-Converter">The Converter</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_02-Music21.html#Looping-with-music21">Looping With Music21</a></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_02-Music21.html#Reading-in-files.">Reading In Files.</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_02-Music21.html#Back-to-the-Exercise.">Back To The Exercise.</a></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_02-Music21.html#Printing-a-question">Printing A Question</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_02-Music21.html#Transposing">Transposing</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_02-Music21.html#Homework-for-Monday:">Homework For Monday:</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html">Week 03 Rhythms</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#Rhythms">Rhythms</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#Presentation-and-Paper">Presentation And Paper</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#Working-with-Rhythms">Working With Rhythms</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#Rhythmic-Representation">Rhythmic Representation</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#In-Kern-Files-(Humdrum)">In Kern Files (Humdrum)</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#In-Music21">In Music21</a></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#Metric-Position">Metric Position</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#In-Humdrum">In Humdrum</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#In-music21">In Music21</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#Exercise-1:-Searching-the-Polska-Collection">Exercise 1: Searching The Polska Collection</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#humdrum">Humdrum</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#music21">Music21</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#Back-to-the-exercise.">Back To The Exercise.</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#Return-and-Print">Return And Print</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#Counting-All-Downbeats">Counting All Downbeats</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#Testing-a-Hypothesis">Testing A Hypothesis</a> 1. <a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#Getting-Rhythmic-Content">Getting Rhythmic Content</a> 1. <a href="colabs/unit_1-symbolic_data/Week_03-Rhythms.html#The-nPVI-equation.">The Npvi Equation.</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html">Week 04 Key Finding</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Key-Finding">Key Finding</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#A-Brief-History-of-Key-Finding">A Brief History Of Key Finding</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Longuet-Higgins">Longuet Higgins</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Krumhansl-Schmuckler/Krumansl-Kessler">Krumhansl Schmuckler/Krumansl Kessler</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Aarden-Essen">Aarden Essen</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Bellman-Budge">Bellman Budge</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Temperley-Kostka/Payne">Temperley Kostka/Payne</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Craig-Sapp&#39;s-Simple-Weightings">Craig Sapp’S Simple Weightings</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Results">Results</a></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#A-%22Bag-of-Notes%22?">A “Bag Of Notes”?</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Keyscapes">Keyscapes</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Exercise-#1">Exercise #1</a></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Exercise-#2">Exercise #2</a></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Wednesday">Wednesday</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Today&#39;s-Plan">Today’S Plan</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Windowed-Graphs">Windowed Graphs</a> 1. <a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#What-key-would-this-be-in?">What Key Would This Be In?</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Looking-at-Confidence-in-the-Chorales.">Looking At Confidence In The Chorales.</a></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_04-Key_Finding.html#Exercise-#3">Exercise #3</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_05-Chords.html">Week 05 Chords</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_05-Chords.html#Chords">Chords</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_05-Chords.html#Vertical-Sonorities">Vertical Sonorities</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_05-Chords.html#How-Humdrum-Looks-at-Harmony">How Humdrum Looks At Harmony</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_05-Chords.html#How-music21-Looks-at-Harmony">How Music21 Looks At Harmony</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_05-Chords.html#Chordify">Chordify</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_05-Chords.html#Annotating-with-Chordify:">Annotating With Chordify:</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_05-Chords.html#Roman-Numerals">Roman Numerals</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_05-Chords.html#Getting-all-the-chords-in-a-Bach-Chorale">Getting All The Chords In A Bach Chorale</a></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_05-Chords.html#Exercise">Exercise</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_05-Chords.html#Annotating-a-Score">Annotating A Score</a></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_05-Chords.html#Wednesday">Wednesday</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_05-Chords.html#While-Loops">While Loops</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_05-Chords.html#Exercise:">Exercise:</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_06-Python_Installation.html">Week 06 Python Installation</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_06-Python_Installation.html#Install-Python">Install Python</a></li>
+<li><a href="colabs/unit_1-symbolic_data/Week_06-Python_Installation.html#Does-your-computer-have-python-already?">Does Your Computer Have Python Already?</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_1-symbolic_data/Week_06-Python_Installation.html#Installing-with-homewbrew:">Installing With Homewbrew:</a></li>
+</ol></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html">Unit 2 Audio Data</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html">Week 07 Beat Tracking</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Audio-Analysis">Audio Analysis</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#A-bit-of-history">A Bit Of History</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Beat-Tracking">Beat Tracking</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Beat">Beat</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Pulse">Pulse</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Usage">Usage</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Algorithm-structure">Algorithm Structure</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Imports">Imports</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Audio-Signal">Audio Signal</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Librosa&#39;s-Beat-Tracking">Librosa’S Beat Tracking</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Listen">Listen</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Spectral-Analysis">Spectral Analysis</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Spectral-Energy-Flux">Spectral Energy Flux</a> 1. <a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#custom-onset-strength-function">Custom Onset Strength Function</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Detection-Function">Detection Function</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Listen">Listen</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Periodicity-Estimation">Periodicity Estimation</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Autocorrelation">Autocorrelation</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#DFT">Dft</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Essentia">Essentia</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Compare-Tempo-Estimations">Compare Tempo Estimations</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#References">References</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#References">References</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_07-Beat_Tracking.html#Exercise">Exercise</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html">Week 08 Melodic Extraction</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#Melodic-Extraction">Melodic Extraction</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#Paiva&#39;s-algorithm">Paiva’S Algorithm</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#Melody">Melody</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#Extra">Extra</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#Algorithm-Structure">Algorithm Structure</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#Load-an-audio-file">Load An Audio File</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#Detect-Onsets">Detect Onsets</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#Librosa&#39;s-Onset-Detection">Librosa’S Onset Detection</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#Segment-the-Audio">Segment The Audio</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#Fundamental-Frequency-Estimation">Fundamental Frequency Estimation</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#1.-Autocorrelation-Method">1. Autocorrelation Method</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#run-the-function-and-estimate">Run The Function And Estimate</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#Exercise">Exercise</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#2.-DFT-f0-Estimation-method">2. Dft F0 Estimation Method</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#Exercise">Exercise</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_08-Melodic_Extraction.html#Constant-Q-Transform">Constant Q Transform</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_1-Spectrogram.html">Week 09 Review 1 Spectrogram</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_09-review_1-Spectrogram.html#Libosa-load">Libosa Load</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_1-Spectrogram.html#Audio-Waveform">Audio Waveform</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_1-Spectrogram.html#Spectrogram-of-a-sound">Spectrogram Of A Sound</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_09-review_1-Spectrogram.html#Frequency-Spectrum">Frequency Spectrum</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_1-Spectrogram.html#Magnitude-(aka-Amplitude-Spectrum)">Magnitude (Aka Amplitude Spectrum)</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_1-Spectrogram.html#Plotting-a-Spectrogram">Plotting A Spectrogram</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_09-review_1-Spectrogram.html#Power-Spectrum...-scaled-in-Decibels">Power Spectrum… Scaled In Decibels</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_1-Spectrogram.html#Exercise-1">Exercise 1</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_1-Spectrogram.html#Exercise-2">Exercise 2</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_2-Tempo.html">Week 09 Review 2 Tempo</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_09-review_2-Tempo.html#Tempo-estimation">Tempo Estimation</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_09-review_2-Tempo.html#Load-a-sound">Load A Sound</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_2-Tempo.html#Listen-to-it">Listen To It</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_2-Tempo.html#Librosa&#39;s-beat.tempo-function">Librosa’S Beat.Tempo Function</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_2-Tempo.html#Custom-Tempo-Estimation">Custom Tempo Estimation</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_09-review_2-Tempo.html#1.-Compute-the-Power-Spectrum-of-a-signal">1. Compute The Power Spectrum Of A Signal</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_2-Tempo.html#2.-Compute-the-Mel-Spectrogram-using-the-Power-Spectrum">2. Compute The Mel Spectrogram Using The Power Spectrum</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_2-Tempo.html#3.-Compute-the-onset-strength-envelope-using-the-Mel-Spectrogram">3. Compute The Onset Strength Envelope Using The Mel Spectrogram</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_2-Tempo.html#4.-Estimate-the-tempo-using-Autocorrelation-or-Frequency-Estimation">4. Estimate The Tempo Using Autocorrelation Or Frequency Estimation</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_09-review_2-Tempo.html#4.1-Autocorrelation">4.1 Autocorrelation</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_2-Tempo.html#4.1-Frequency-Estimation-(DFT-Method)">4.1 Frequency Estimation (Dft Method)</a></li>
+</ol></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_2-Tempo.html#Exercise-1">Exercise 1</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_2-Tempo.html#Exercise-2">Exercise 2</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_3-Beat_tracking.html">Week 09 Review 3 Beat Tracking</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_09-review_3-Beat_tracking.html#Beat-Tracking">Beat Tracking</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_09-review_3-Beat_tracking.html#Load-a-sound">Load A Sound</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_3-Beat_tracking.html#Listen-to-it">Listen To It</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_3-Beat_tracking.html#Librosa&#39;s-beat_track-function">Librosa’S Beat Track Function</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_3-Beat_tracking.html#Plot-the-waveform-with-clicks">Plot The Waveform With Clicks</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_3-Beat_tracking.html#Exercise-1">Exercise 1</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_09-review_3-Beat_tracking.html#Exercise-2">Exercise 2</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_10-Audio-to-Score_Alignment-DTW.html">Week 10 Audio To Score Alignment Dtw</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_10-Audio-to-Score_Alignment-DTW.html#Music-Synchronization">Music Synchronization</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_10-Audio-to-Score_Alignment-DTW.html#Dynamic-Time-Warping">Dynamic Time Warping</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_10-Audio-to-Score_Alignment-DTW.html#Compute-Chroma-Sens">Compute Chroma Sens</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_10-Audio-to-Score_Alignment-DTW.html#Dynamic-Time-Warping">Dynamic Time Warping</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_10-Audio-to-Score_Alignment-DTW.html#Audio-to-score">Audio To Score</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_10-Audio-to-Score_Alignment-DTW.html#Fetch-a-sound-file">Fetch A Sound File</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_10-Audio-to-Score_Alignment-DTW.html#Fetch-a-kern-file">Fetch A Kern File</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_10-Audio-to-Score_Alignment-DTW.html#Try-with-different-features">Try With Different Features</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_10-Audio-to-Score_Alignment-DTW.html#Sources">Sources</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html">Week 11 Python Classes</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#Prepare-Python-(and-colab)">Prepare Python (And Colab)</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#Audio-to-Score-Alignment">Audio To Score Alignment</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#Getting-Bach-Chorales-(...from-youtube)">Getting Bach Chorales (…From Youtube)</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#Getting-a-Bach-Chorale-Score-(from-kern-to-synced-audio+music21)">Getting A Bach Chorale Score (From Kern To Synced Audio+Music21)</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#Score-class">Score Class</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#Usage">Usage</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#Aligning-source-and-target-for-querying">Aligning Source And Target For Querying</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#Aligner-class">Aligner Class</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#Usage">Usage</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#Python-Classes">Python Classes</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#Composer-class">Composer Class</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#Classes-have-a-&#39;self&#39;">Classes Have A ‘Self’</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#How-are-Classes-different-than-variables?-Functions">How Are Classes Different Than Variables? Functions</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#Exercise">Exercise</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#1.-(REVIEW)-Put-this-into-a-function-called-plot_spectrogram">1. (Review) Put This Into A Function Called Plot Spectrogram</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_11-Python_Classes.html#2.-Place-the-function-inside-this-(slightly-changed)-BPM-class-creation">2. Place The Function Inside This (Slightly Changed) Bpm Class Creation</a></li>
+</ol></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_11-review_1-Melodic_Extraction.html">Week 11 Review 1 Melodic Extraction</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_11-review_1-Melodic_Extraction.html#More-on-classes">More On Classes</a></li>
+<li><a href="colabs/unit_2-audio_data/Week_11-review_1-Melodic_Extraction.html#Review:-A-Melodic-Extraction-class">Review: A Melodic Extraction Class</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_2-audio_data/Week_11-review_1-Melodic_Extraction.html#solutions">Solutions</a></li>
+</ol></li>
+<li><a href="colabs/unit_2-audio_data/Week_11-review_1-Melodic_Extraction.html#useful-functions">Useful Functions</a> 1. <a href="colabs/unit_2-audio_data/Week_11-review_1-Melodic_Extraction.html#Autocorrelation">Autocorrelation</a> 1. <a href="colabs/unit_2-audio_data/Week_11-review_1-Melodic_Extraction.html#DFT-Method">Dft Method</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_12-pandas-spotify_data.html">Unit 3 Machine Learning And Analytical Models</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_12-pandas-spotify_data.html">Week 12 Pandas Spotify Data</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_12-pandas-spotify_data.html#Pandas-and-Spotify-Data">Pandas And Spotify Data</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_12-pandas-spotify_data.html#Goals-this-week.">Goals This Week.</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_12-pandas-spotify_data.html#Importing-Pandas">Importing Pandas</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_12-pandas-spotify_data.html#Picking-out-specific-things.">Picking Out Specific Things.</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_12-pandas-spotify_data.html#Calculating-Summary-Statistics">Calculating Summary Statistics</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_12-pandas-spotify_data.html#Testing-a-hypothesis">Testing A Hypothesis</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_12-pandas-spotify_data.html#Results:">Results:</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_12-pandas-spotify_data.html#Exercise">Exercise</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html">Week 13 1 Ml Intro Perceptron Svm</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#Machine-learning">Machine Learning</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#ML-Model">Ml Model</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#Generative-Models">Generative Models</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#Discriminative-Models">Discriminative Models</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#Python-modules">Python Modules</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#Supervised-learning">Supervised Learning</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#Regression">Regression</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#Classification">Classification</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#Unsupervised-learning">Unsupervised Learning</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#Clustering">Clustering</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#Linear-Classification">Linear Classification</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#Perceptron">Perceptron</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#Perceptron-(classifier)">Perceptron (Classifier)</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#Support-Vector-Machine-(classifier)">Support Vector Machine (Classifier)</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#Cross-validation">Cross Validation</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-1-ML_intro-perceptron-svm.html#Exercise">Exercise</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html">Week 13 2 Binary Class Mozart Or Salieri Svm Mfcc Youtube</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Mozart-or-Salieri?">Mozart Or Salieri?</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Making-a-dataset">Making A Dataset</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Download-audio-files">Download Audio Files</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Load-them-to-memory">Load Them To Memory</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Make-the-Features">Make The Features</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Make-the-Labels">Make The Labels</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Model">Model</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Choose-a-model">Choose A Model</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Train-the-model">Train The Model</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Model-Score">Model Score</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Using-our-model">Using Our Model</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Cross-validation">Cross Validation</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Grid-Search-for-best-parameters">Grid Search For Best Parameters</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Classification-Report">Classification Report</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Confusion-Matrix">Confusion Matrix</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_13-2-binary_class-mozart_or_salieri-SVM-mfcc-youtube.html#Final-Prediction">Final Prediction</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html">Week 14 1 Binary Class Schumann Or Schubert Svm Mfcc Youtube</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Schumann-or-Schubert?">Schumann Or Schubert?</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Making-a-dataset">Making A Dataset</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Download-audio-files">Download Audio Files</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Load-them-to-memory">Load Them To Memory</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Make-the-Features">Make The Features</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Make-the-Labels">Make The Labels</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Model">Model</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Choose-a-model">Choose A Model</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Train-the-model">Train The Model</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Model-Score">Model Score</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Using-our-model">Using Our Model</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Cross-validation">Cross Validation</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Grid-Search-for-best-parameters">Grid Search For Best Parameters</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Classification-Report">Classification Report</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Confusion-Matrix">Confusion Matrix</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-1-binary_class-schumann_or_schubert-SVM-mfcc-youtube.html#Final-Prediction">Final Prediction</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html">Week 14 Review 1 Binary Class Svm Spotify Data</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#Make-a-classifier">Make A Classifier</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#1.-Getting-some-data">1. Getting Some Data</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#1.1-Load-a-dataset">1.1 Load A Dataset</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#1.2-Features-and-Labels">1.2 Features And Labels</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#1.2.0-Look-at-the-data:">1.2.0 Look At The Data:</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#1.2.1-Features">1.2.1 Features</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#1.2.2-Labels">1.2.2 Labels</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#2.-Split-data-into-Train-and-Test-sets">2. Split Data Into Train And Test Sets</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#3.-Train-your-model">3. Train Your Model</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#3.1.-Load-your-model">3.1. Load Your Model</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#3.2.-Train-the-model">3.2. Train The Model</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#3.3-Get-your-Accuracy-score">3.3 Get Your Accuracy Score</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#4.-Make-a-prediction">4. Make A Prediction</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#5.-Grid-Search-for-best-parameters-(Optional)">5. Grid Search For Best Parameters (Optional)</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#5.1-Grid-search">5.1 Grid Search</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#5.2.-Run-a-prediction-again">5.2. Run A Prediction Again</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#6.-Interpreting-Results">6. Interpreting Results</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#6.1-Classification-Report">6.1 Classification Report</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#6.2-Confusion-Matrix">6.2 Confusion Matrix</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_14-review_1-binary_class-SVM-spotify_data.html#8.-Extra">8. Extra</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-1-Multinomial_Classificaiton-ANN-spotify_data.html">Week 15 1 Multinomial Classificaiton Ann Spotify Data</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-1-Multinomial_Classificaiton-ANN-spotify_data.html#Classify-spotify-artists-using-an-Artificial-Neural-Network">Classify Spotify Artists Using An Artificial Neural Network</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-1-Multinomial_Classificaiton-ANN-spotify_data.html#Import-the-Spotify-Data">Import The Spotify Data</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-1-Multinomial_Classificaiton-ANN-spotify_data.html#Plot-the-first-25-elements">Plot The First 25 Elements</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-1-Multinomial_Classificaiton-ANN-spotify_data.html#Build-the-model">Build The Model</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-1-Multinomial_Classificaiton-ANN-spotify_data.html#Set-up-the-layers">Set Up The Layers</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-1-Multinomial_Classificaiton-ANN-spotify_data.html#Compile-the-model">Compile The Model</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-1-Multinomial_Classificaiton-ANN-spotify_data.html#Train-the-model">Train The Model</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-1-Multinomial_Classificaiton-ANN-spotify_data.html#Feed-the-model">Feed The Model</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-1-Multinomial_Classificaiton-ANN-spotify_data.html#Evaluate-accuracy">Evaluate Accuracy</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-1-Multinomial_Classificaiton-ANN-spotify_data.html#Make-predictions">Make Predictions</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-1-Multinomial_Classificaiton-ANN-spotify_data.html#Confusion-Matrix">Confusion Matrix</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-1-Multinomial_Classificaiton-ANN-spotify_data.html#Use-the-trained-model">Use The Trained Model</a></li>
+</ol></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html">Week 15 2 Multinomial Classificaiton Cnn Nsynth</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html#Using-a-Convolutional-Neural-Network-to-classify-musical-instruments">Using A Convolutional Neural Network To Classify Musical Instruments</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html#Import-the-nsynth-dataset">Import The Nsynth Dataset</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html#The-Nsynth-dataset">The Nsynth Dataset</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html#Helper-Functions">Helper Functions</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html#MFCCs-and-Label-Datasets">Mfccs And Label Datasets</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html#Plot-some-elements-of-the-labelled-MFCCs">Plot Some Elements Of The Labelled Mfccs</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html#Normalization-Layer">Normalization Layer</a></li>
+</ol></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html#Batch,-Cache-and-Prefetch">Batch, Cache And Prefetch</a>
+<ol class="incremental" type="1">
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html#Input-Shape">Input Shape</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html#Innstantiate-the-Sequential-class-with-your-layers">Innstantiate The Sequential Class With Your Layers</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html#Compile-the-model">Compile The Model</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html#Train">Train</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html#Plot-results">Plot Results</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html#Confusion-matrix">Confusion Matrix</a></li>
+<li><a href="colabs/unit_3-machine_learning_and_analytical_models/Week_15-2-Multinomial_Classificaiton-CNN-nsynth.html#Single-Predictions">Single Predictions</a></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol>
+</body>
+</html>
