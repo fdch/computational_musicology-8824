@@ -51,7 +51,7 @@ if __name__ == "__main__":
     import os
 
     STY=Path("./style/github-pandoc.css").as_posix()
-    TARGET=Path("./index.md")
+    TARGET=Path("./README.md")
     HTML=Path("./index.html")
     COLABS=Path("./colabs")
 
