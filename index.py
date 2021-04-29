@@ -54,9 +54,12 @@ if __name__ == "__main__":
     TARGET=Path("./README.md")
     HTML=Path("./index.html")
     COLABS=Path("./colabs")
+    SYLLABUS=Path("./syllabus/Computational_Musicology_8824.02.pdf").as_posix()
 
     TITLE="Computational Musicology 8824"
     DESCRIPTION="Jupyter notebooks made for the Computational Musicology Seminar at The Ohio State University's School of Music."
+    REPO="https://github.com/fdch/computational_musicology-8824"
+
     li = "1. "
 
     PDOC="/usr/local/bin/pandoc"
@@ -72,7 +75,9 @@ if __name__ == "__main__":
     with TARGET.open(mode='w') as f:
         f.writelines([
             f"{DESCRIPTION}\n\n",
-            f"See the [Syllabus](Computational_Musicology_8824.02.pdf)\n\n"
+            f"See the {link("Syllabus", SYLLABUS)}\n\n",
+            f"Code is hosted in {link("github",REPO)})\n\n",
+            "---\n\n"
         ])
         unit = ''
         for i in files:

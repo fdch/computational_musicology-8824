@@ -1,9 +1,10 @@
-# Computational Musicology 8824
-
-
 Jupyter notebooks made for the Computational Musicology Seminar at The Ohio State University's School of Music.
 
-See the [Syllabus](Computational_Musicology_8824.02.pdf)
+See the [Syllabus](syllabus/Computational_Musicology_8824.02.pdf)
+
+Code is hosted in [github](https://github.com/fdch/computational_musicology-8824)
+
+---
 
 1. [Unit 1 Symbolic Data](colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html)
 	1. [Week 01 Representation Formats](colabs/unit_1-symbolic_data/Week_01-Representation_Formats.html)
