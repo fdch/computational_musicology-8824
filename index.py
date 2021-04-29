@@ -75,8 +75,8 @@ if __name__ == "__main__":
     with TARGET.open(mode='w') as f:
         f.writelines([
             f"{DESCRIPTION}\n\n",
-            f"See the {link("Syllabus", SYLLABUS)}\n\n",
-            f"Code is hosted in {link("github",REPO)})\n\n",
+            f"See the [Syllabus]({SYLLABUS})\n\n",
+            f"Code is hosted in [github]({REPO})\n\n",
             "---\n\n"
         ])
         unit = ''
